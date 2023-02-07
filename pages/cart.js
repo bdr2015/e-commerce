@@ -54,7 +54,7 @@ export default function Cart({items}){
   
     const checkOut = async(data)=>{
             let order = {receiver:data,products:goods.map((el)=>{return {id:el.id, quantity:el.quantity}})}
-            let result = await axios.post('http://localhost:5000/checkout',{
+            let result = await axios.post('https://e-commerce-server-indol.vercel.app/',{
                 order
             })
             console.log(result);
