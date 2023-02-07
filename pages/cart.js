@@ -99,21 +99,21 @@ export default function Cart({items}){
                  </label>
                  <label>
                      Name:
-                 <input type='tel' {...register("name",{
+                 <input type='text' {...register("name",{
                      required:"This field is required",
                  })} />
                  <p >{errors?.name&& errors?.name?.message}</p>
                  </label>
                  <label>
                      Surname:
-                 <input type='tel' {...register("surname",{
+                 <input type='text' {...register("surname",{
                      required:"This field is required",
                  })} />
                  <p >{errors?.surname&& errors?.surname?.message}</p>
                  </label>
                  <label>
                      Delivery address:
-                 <input type='tel' {...register("address",{
+                 <input type='text' {...register("address",{
                      required:"This field is required",
                  })} />
                  <p >{errors?.address&& errors?.address?.message}</p>
