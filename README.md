@@ -1,7 +1,7 @@
 
 
 # E-Commerce Next.js SSG app
-Items which has been added to  shopping cart are stored in LocalStorage
+Items which has been added to  shopping cart are stored in LocalStorage.
 After page reloading or closing, they'll be saved in the shoping cart anyway.
 
 Order forms are sent to Telegram bot after submit. In the telegram bot the forms look like:
