@@ -1,5 +1,9 @@
 
+
 # E-Commerce Next.js SSG app
+Items which has been added to  shopping cart are stored in LocalStorage
+After page reloading or closing, they'll be saved in the shoping cart anyway.
+
 Order forms are sent to Telegram bot after submit. In the telegram bot the forms look like:
 
     Замовник: Michael Jackson
@@ -16,4 +20,6 @@ Order forms are sent to Telegram bot after submit. In the telegram bot the forms
 **Client:** Next.js, ReduxToolkit,React-Hook-Form, CSS, Axios, Fake store API
 
 **Server:** Express, Telegram Bot API
+
+
 
