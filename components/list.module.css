@@ -1,0 +1,251 @@
+@media(min-width:1300px){
+.listWrapper{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    columns: 2;
+    justify-content:space-around;
+    background-color: white;
+    margin-bottom: 50px;
+    
+    
+    
+}
+.productItemCart{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(255,75,177,0.46); 
+    box-shadow: 5px 5px 15px 5px rgba(255,75,177,0.46);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+.productItemCart h3{
+    padding: 0px;
+    margin: 0px;
+   
+}
+.productItemCart h2{
+    width: 70%;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    color: black;
+}
+.productItemCart img{
+    height: 200px;
+}
+.productItemCart button{
+    margin-top: 10px;
+    background-color: #023047;
+    color: aliceblue;
+    border: 0px;
+    border-radius: 30px;
+    width: 120px;
+    height: 30px;
+    text-decoration: none;
+}
+.productItemCart button:hover{
+    color: black;
+    background-color: #ffb703;
+    cursor: pointer;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form input{
+    width: 300px;
+    height: 25px;
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    border: solid black 1.5px;
+    font-size: large;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.form input:focus{
+    outline: none;
+    background-color: gainsboro;
+}
+.searchButton{
+    margin-left: 10px;
+    background-color: #023047;
+    width: 80px;
+    height: 35px;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    margin-top: 10px;
+}
+.searchButton:hover{
+    cursor: pointer;
+}
+}
+
+
+
+
+@media(max-width:1300px){
+    .listWrapper{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        background-color: white;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+        
+    }
+    .productItemCart{
+        background-color: white;
+        height: 400px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(255,75,177,0.46); 
+        box-shadow: 5px 5px 15px 5px rgba(255,75,177,0.46);
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        
+        
+    }
+    .productItemCart h3{
+        padding: 0px;
+        margin: 0px;
+       
+    }
+    .productItemCart h2{
+        width: 70%;
+        padding: 0px;
+        margin: 0px;
+        padding-top: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-decoration: none;
+        color: black;
+    }
+    .productItemCart img{
+        max-height: 180px;
+        object-fit: fill;
+    }
+    .productItemCart button{
+        margin-top: 10px;
+        background-color: #023047;
+        color: aliceblue;
+        border: 0px;
+        border-radius: 30px;
+        width: 120px;
+        height: 30px;
+        text-decoration: none;
+    }
+    .productItemCart button:hover{
+        color: black;
+        background-color: #ffb703;
+        cursor: pointer;
+    }
+    
+    .form{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .form input{
+        width: 250px;
+        height: 35px;
+        margin-top: 10px;
+        padding: 5px;
+        padding-left: 15px;
+        border: solid black 1.5px;
+        font-size: large;
+        border-radius: 20px;
+        margin-left: 15px;
+    }
+    .form input:focus{
+        outline: none;
+        background-color: gainsboro;
+    }
+    .searchButton{
+        margin-left: 10px;
+        background-color: #023047;
+        width: 80px;
+        height: 35px;
+        color: white;
+        border-radius: 20px;
+        border: 0px;
+        margin-top: 10px;
+    }
+    .searchButton:hover{
+        cursor: pointer;
+    }
+}
+@media(max-width:700px){
+    .listWrapper{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        background-color: white;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+        
+    }
+    .form input{
+        width: 150px;
+        height: 25px;
+        margin-top: 10px;
+        padding: 5px;
+        padding-left: 15px;
+        border: solid black 1.5px;
+        font-size: large;
+        border-radius: 20px;
+        margin-left: 15px;
+    }
+    .productItemCart{
+        background-color: white;
+        height: 400px;
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(255,75,177,0.46); 
+        box-shadow: 5px 5px 15px 5px rgba(255,75,177,0.46);
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        
+        
+    }
+    .productItemCart img{
+        max-width: 100%;
+        max-height: 180px;
+        object-fit: fill;
+    }
+}

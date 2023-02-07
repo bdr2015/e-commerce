@@ -1,0 +1,191 @@
+
+@media(min-width:1300px){
+.cartWrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.cartListWrapper{
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    margin-left: 30px;
+    width: fit-content;
+    margin-right: 0px;
+}
+.checkOutWrapper{
+    display: flex;
+    border: 2px solid #023047;
+    border-radius: 20px;
+    width: 700px;
+    margin-right: 50px;
+    margin-top: 60px;
+    padding: 20px;
+    height: fit-content;
+    justify-content: space-between;
+
+}
+.checkOutWrapper form{
+    display: flex;
+    flex-direction: column;
+}
+.checkOutWrapper p{
+    font-weight:normal;
+    color:red;
+    font-size:12px;
+    margin:0px; 
+}
+.checkOutWrapper input{
+    border: 1px solid #023047;
+    height: 25px;
+    font-size: 15px;
+    width: 250px;
+    padding: 0px 10px;
+    margin:10px 0px ;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+.checkOutWrapper button{
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #ffb703;
+}
+.checkOutWrapper button:hover:enabled{
+    cursor: pointer;
+}
+}
+
+
+
+@media(max-width:1300px){
+    .cartWrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        
+    }
+    
+    .cartListWrapper{
+        display: flex;
+        margin-top: 60px;
+        flex-direction: column;
+        margin-left: 30px;
+        width: fit-content;
+        margin-right: 0px;
+    }
+    .checkOutWrapper{
+        display: flex;
+        border: 2px solid #023047;
+        border-radius: 20px;
+        width: 700px;
+        margin-right: 50px;
+        margin-top: 60px;
+        padding: 20px;
+        height: fit-content;
+        justify-content: space-between;
+    
+    }
+    .checkOutWrapper form{
+        display: flex;
+        flex-direction: column;
+    }
+    .checkOutWrapper p{
+        font-weight:normal;
+        color:red;
+        font-size:12px;
+        margin:0px; 
+    }
+    .checkOutWrapper input{
+        border: 1px solid #023047;
+        height: 25px;
+        font-size: 15px;
+        width: 250px;
+        padding: 0px 10px;
+        margin:10px 0px ;
+        border-radius: 12px;
+        margin-left: 10px;
+    }
+    .checkOutWrapper button{
+        width: 200px;
+        height: 40px;
+        border: 0px;
+        border-radius: 20px;
+        background-color: #ffb703;
+    }
+    .checkOutWrapper button:hover:enabled{
+        cursor: pointer;
+    }
+    }
+
+    
+@media(max-width:800px){
+    .cartWrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .cartListWrapper{
+        display: flex;
+        margin-top: 60px;
+        flex-direction: column;
+        width: fit-content;
+        margin-left: 0px;
+    }
+    .checkOutWrapper{
+        display: flex;
+        border: 2px solid #023047;
+        border-radius: 20px;
+        margin-top: 60px;
+        padding: 20px;
+        height: fit-content;
+        justify-content: space-between;
+        margin-right: 0px;
+        margin-bottom: 50px;
+        width: 80%;
+    
+    }
+    .checkOutWrapper form{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .checkOutWrapper p{
+        font-weight:normal;
+        color:red;
+        font-size:12px;
+        margin:0px; 
+    }
+    .checkOutWrapper input{
+        border: 1px solid #023047;
+        height: 35px;
+        font-size: 15px;
+        width: 90%;
+        padding: 0px 10px;
+        margin:10px 0px ;
+        border-radius: 12px;
+        margin-left: 10px;
+    }
+    .checkOutWrapper button{
+        width: 200px;
+        height: 40px;
+        border: 0px;
+        border-radius: 20px;
+        background-color: #ffb703;
+    }
+    .checkOutWrapper button:hover:enabled{
+        cursor: pointer;
+    }
+    }
+    
+    
+    
+    

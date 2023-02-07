@@ -1,0 +1,228 @@
+@media(min-width:1300px){
+.itemWrapper{
+    width: 750px;
+    display: flex;
+    padding: 20px;
+    border: 2px #023047 solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.itemWrapper img{
+    height: 70px;
+    
+    
+}
+.itemWrapper h3{
+    display: inline;
+    
+}
+.title{
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.price{
+    margin-left: 40px;
+}
+.quantity{
+    margin:0px 10px
+}
+.reduceButton{
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    border-radius: 25px;
+    background-color: #ffb703;
+}
+.addButton{
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    border-radius: 25px;
+    background-color: #ffb703;
+}
+.itemWrapper button:hover{
+    cursor: pointer;
+}
+.quantityLabel{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.deleteItem{
+    border: 0px;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: #023047;
+    color: white;
+    margin-left: 30px;
+}
+
+.title:hover{
+    text-decoration: underline;
+    color: black;
+}
+}
+
+
+@media(max-width:1300px){
+    .itemWrapper{
+        width: 90vw;
+        display: flex;
+        padding: 20px;
+        border: 2px #023047 solid;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .itemWrapper img{
+        height: 70px;
+        
+        
+    }
+    .itemWrapper h3{
+        display: inline;
+        
+    }
+    .title{
+        max-width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-left: 30px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .price{
+        margin-left: 40px;
+    }
+    .quantity{
+        margin:0px 10px
+    }
+    .reduceButton{
+        width: 30px;
+        height: 30px;
+        border: 0px;
+        border-radius: 25px;
+        background-color: #ffb703;
+    }
+    .addButton{
+        width: 30px;
+        height: 30px;
+        border: 0px;
+        border-radius: 25px;
+        background-color: #ffb703;
+    }
+    .itemWrapper button:hover{
+        cursor: pointer;
+    }
+    .quantityLabel{
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+    .deleteItem{
+        border: 0px;
+        height: 30px;
+        width: 30px;
+        border-radius: 15px;
+        background-color: #023047;
+        color: white;
+        margin-left: 30px;
+    }
+    
+    .title:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    }
+
+
+
+    @media(max-width:800px){
+        .itemWrapper{
+            display: flex;
+            padding: 20px;
+            border: 2px #023047 solid;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 80vw;
+            
+        }
+        .itemWrapper img{
+            height: 70px;
+            
+            
+        }
+        .itemWrapper h3{
+            display: inline;
+            
+        }
+        .title{
+            max-width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-left: 30px;
+            text-decoration: none;
+            color: black;
+        }
+        
+        .price{
+            margin-left: 40px;
+        }
+        .quantity{
+            margin:0px 10px
+        }
+        .reduceButton{
+            width: 30px;
+            height: 30px;
+            border: 0px;
+            border-radius: 25px;
+            background-color: #ffb703;
+        }
+        .addButton{
+            width: 30px;
+            height: 30px;
+            border: 0px;
+            border-radius: 25px;
+            background-color: #ffb703;
+        }
+        .itemWrapper button:hover{
+            cursor: pointer;
+        }
+        .quantityLabel{
+            margin-left: 20px;
+            margin-right: 5px;
+        }
+        .deleteItem{
+            border: 0px;
+            height: 30px;
+            width: 30px;
+            border-radius: 15px;
+            background-color: #023047;
+            color: white;
+            margin-left: 30px;
+        }
+        
+        .title:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        }
